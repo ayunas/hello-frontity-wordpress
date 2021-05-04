@@ -23,6 +23,7 @@
     "@frontity/tiny-router": "^1.4.2",
     "@frontity/wp-source": "^1.11.4",
     "amirs-frontity-theme": "file:packages/amirs-frontity-theme",
-    "frontity": "^1.15.0"
+    "frontity": "^1.15.0",
+    "node-sass": "^5.0.0"
   }
 }
