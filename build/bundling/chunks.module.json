@@ -2,16 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "e0b1e3b1bebf726a4bfe",
+  "hash": "73d4273e3b3f019169c4",
   "publicPath": "/static/",
   "outputPath": "/Volumes/wd-passport-5tb/wordpress/hello-frontity/build/static",
   "assetsByChunkName": {
-    "hello-frontity": "hello-frontity.module.js"
+    "hello-frontity": [
+      "hello-frontity.module.js",
+      "hello-frontity.7f40bfd4cab13337c42a.hot-update.js"
+    ]
   },
   "assets": [
     {
+      "name": "7f40bfd4cab13337c42a.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "hello-frontity.7f40bfd4cab13337c42a.hot-update.js",
+      "size": 4152,
+      "chunks": [
+        "hello-frontity"
+      ],
+      "chunkNames": [
+        "hello-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "hello-frontity.module.js",
-      "size": 6153477,
+      "size": 6155201,
       "chunks": [
         "hello-frontity"
       ],
@@ -29,7 +58,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.7f40bfd4cab13337c42a.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -41,7 +71,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.7f40bfd4cab13337c42a.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -53,14 +84,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1520226,
+      "size": 1520195,
       "names": [
         "hello-frontity"
       ],
       "files": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.7f40bfd4cab13337c42a.hot-update.js"
       ],
-      "hash": "970317bb936512e712b7",
+      "hash": "65ea340280695c61415b",
       "siblings": [],
       "parents": [],
       "children": [],

@@ -1,11 +1,4 @@
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages/amirs-frontity-theme/src/index.js</pre>
-    </>
-  );
-};
+import Root from './components/Root';
 
 export default {
   name: "amirs-frontity-theme",
