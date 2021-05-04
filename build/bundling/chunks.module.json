@@ -2,16 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "deacbd88eec4eb58778b",
+  "hash": "5d4a7102e3d53ba6bf80",
   "publicPath": "/static/",
   "outputPath": "/Volumes/wd-passport-5tb/wordpress/hello-frontity/build/static",
   "assetsByChunkName": {
-    "hello-frontity": "hello-frontity.module.js"
+    "hello-frontity": [
+      "hello-frontity.module.js",
+      "hello-frontity.fc1366517c070a34fac0.hot-update.js"
+    ]
   },
   "assets": [
     {
+      "name": "fc1366517c070a34fac0.hot-update.json",
+      "size": 56,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "hello-frontity.fc1366517c070a34fac0.hot-update.js",
+      "size": 4037,
+      "chunks": [
+        "hello-frontity"
+      ],
+      "chunkNames": [
+        "hello-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "hello-frontity.module.js",
-      "size": 6156332,
+      "size": 6248256,
       "chunks": [
         "hello-frontity"
       ],
@@ -19,8 +48,7 @@
         "hello-frontity"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -30,7 +58,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.fc1366517c070a34fac0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -42,7 +71,8 @@
         "hello-frontity"
       ],
       "assets": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.fc1366517c070a34fac0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -51,17 +81,18 @@
   "chunks": [
     {
       "id": "hello-frontity",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1520432,
+      "size": 1544380,
       "names": [
         "hello-frontity"
       ],
       "files": [
-        "hello-frontity.module.js"
+        "hello-frontity.module.js",
+        "hello-frontity.fc1366517c070a34fac0.hot-update.js"
       ],
-      "hash": "55065fad0dc3f2ed604e",
+      "hash": "1a6c59642e384ef44abc",
       "siblings": [],
       "parents": [],
       "children": [],
